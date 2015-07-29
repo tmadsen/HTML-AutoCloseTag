@@ -9,7 +9,6 @@ let b:mapped_auto_closetag = 1
 
 ino <buffer> <silent> < <><left>
 ino <buffer> <silent> > <c-r>=<SID>CloseTag()<cr>
-ino <buffer> <expr> <cr> <SID>Return()
 
 if exists('s:did_auto_closetag') | finish | endif
 let s:did_auto_closetag = 1
